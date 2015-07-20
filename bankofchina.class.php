@@ -1,6 +1,6 @@
 <?php
 /**
- * DB-Util
+ * BankofChina-ForeignExchange
  * Created by Silence Unlimited
  * Developer: Rchockxm (rchockxm.silver@gmail.com)
  * FileName: bankofchina.class.php
