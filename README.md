@@ -30,6 +30,19 @@ $symbol = "USD";
 print_r( $BankofChina->getExchangeRate($startDate, $endDate, $symbol) );
 ```
 
+```php
+Array
+(
+    [BuyingRate] => 6.2
+    [CashBuyingRate] => 6.15
+    [SellingRate] => 6.22
+    [CashSellingRate] => 6.22
+    [StandardPrice] => 6.12
+    [CenterLinePrice] => 6.12
+    [DateTime] => 2015.07.20 22:10:33
+)
+```
+
 Multi data
 
 ```php
@@ -43,6 +56,19 @@ $symbol = "USD";
 $page = 2;
 
 print_r( $BankofChina->getExchangeRate($startDate, $endDate, $symbol, $page) );
+```
+
+```php
+[0] => Array
+    (
+        [BuyingRate] => 6.2
+        [CashBuyingRate] => 6.15
+        [SellingRate] => 6.22
+        [CashSellingRate] => 6.22
+        [StandardPrice] => 6.12
+        [CenterLinePrice] => 6.12
+        [DateTime] => 2015.07.20 15:48:17
+    )
 ```
 
 <h2><a name="author" class="anchor" href="#author"><span class="mini-icon mini-icon-link"></span></a>Author</h2>
