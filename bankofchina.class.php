@@ -65,7 +65,7 @@ class BankofChina {
      *         Fail - double
      */
     public function getMinCent($value) {
-        return (!empty($value)) ? round($value / 100, 2) : 0.00;
+        return (!empty($value)) ? bcdiv($value, "100", 4) : 0.00;
     }
     
     /**
